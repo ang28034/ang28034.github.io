@@ -5,13 +5,39 @@
     <title>Web Page Project</title>
 	
 		<style type="text/css">
-		
+		div {
+      background-color: #1c87c9;
+      color: #fff;
+      padding: 5px;
+      }
+      p {
+      -moz-animation: marquee 10s linear infinite;
+      -webkit-animation: marquee 10s linear infinite;
+      animation: marquee 15s linear infinite;
+      }
+      @-moz-keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+      }
+      @-webkit-keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+      }
+      @keyframes marquee {
+      0% { 
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%) }
+      100% { 
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%); }
+      }
 		body {background-color:#FFF5EE}
 		p {color:black}
 		h1 {color: blue}
 		h1 {font-family:verdana}
 			p {font-family:courier}
-		table, td, th {border: 2px orange;}
 		* {
   box-sizing: border-box;
 }
@@ -19,24 +45,34 @@
 .img-container {
   float: left;
   width: 33.33%;
-  padding: 5px;
-}
+  padding: 5px;}
 
 .clearfix::after {
   content: "";
   clear: both;
-  display: table;
-} 	 
+  display: table;} 	
+table {
+  border-collapse: collapse;
+  width: 100%;}
+
+th, td {
+  text-align: left;
+  padding: 8px;}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;}			
 		</style>
 
   </head>
   <body>
   
 	 
-	   <marquee loop="infinite" behavior="scroll"
-		bgcolor="yellow" direction="left" font size="20">
-		THE EARTH IS FLAT!!!
-		</marquee>
+	   <div>
+      <p>JOIN THE MOVEMENT!!! <a href=“https://m.facebook.com/FlatSoc/”>Click Here</a></p>
+    </div>
     
 	  <div style="text-align:center"><h1>FLAT EARTH</h1></div>
 	<div class="clearfix">
