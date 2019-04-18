@@ -7,18 +7,46 @@
 		<style type="text/css">
 		body {background-color:seashell}
 		#p2{color:black}
+		#p2 {font-family:courier; color:black;}
+		#p2 {font-family:courier; color:black;}
 		h1 {color: blue}
 		h1 {font-family:verdana}
-			p {font-family:courier}
-		* {
-  box-sizing: border-box;
+		p {font-family:courier}
+		#p1 {
+			  background-color: #1c87c9;
+			  color: #fff;
+			  padding: 5px;
+			  }
+			  #p1{
+			  -moz-animation: marquee 10s linear infinite;
+			  -webkit-animation: marquee 10s linear infinite;
+			  animation: marquee 15s linear infinite;
+			  }
+			  @-moz-keyframes marquee {
+			  0% { transform: translateX(100%); }
+			  100% { transform: translateX(-100%); }
+			  }
+			  @-webkit-keyframes marquee {
+			  0% { transform: translateX(100%); }
+			  100% { transform: translateX(-100%); }
+			  }
+			  @keyframes marquee {
+			  0% { 
+			  -moz-transform: translateX(100%);
+			  -webkit-transform: translateX(100%);
+			  transform: translateX(100%) }
+			  100% { 
+			  -moz-transform: translateX(-100%);
+			  -webkit-transform: translateX(-100%);
+			  transform: translateX(-100%); } }
+		
+		
+	* {box-sizing: border-box;
 }
-
 .img-container {
   float: left;
   width: 33.33%;
   padding: 5px;}
-
 .clearfix::after {
   content: "";
   clear: both;
@@ -26,16 +54,14 @@
 table {
   border-collapse: collapse;
   width: 100%;}
-
 th, td {
   text-align: left;
   padding: 8px;}
-
 tr:nth-child(even){background-color: #f2f2f2}
-
 th {
   background-color: #4CAF50;
   color: white;}
+	
 	#a1:link, #a1:visited {
   background-color: #f44336;
   color: white;
@@ -44,7 +70,6 @@ th {
   text-decoration: none;
   display: inline-block;
 }
-
 #a1:hover, #a1:active {
   background-color: red;
 }		
@@ -54,36 +79,9 @@ th {
   <body>
   
 	 
-	   <div style="
-      background-color: #1c87c9;
-      color: #fff;
-      padding: 5px;
-      }
-      p{
-      -moz-animation: marquee 10s linear infinite;
-      -webkit-animation: marquee 10s linear infinite;
-      animation: marquee 15s linear infinite;
-      }
-      @-moz-keyframes marquee {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
-      }
-      @-webkit-keyframes marquee {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
-      }
-      @keyframes marquee {
-      0% { 
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%) }
-      100% { 
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%); } ">
-JOIN THE MOVEMENT!!! <a href=“https://m.facebook.com/FlatSoc/”>Click Here</a>
-    </div>
-    <br />
+	   
+<p id="p1">JOIN THE MOVEMENT!!! <a href=“https://m.facebook.com/FlatSoc/”>Click Here</a></p>
+
 	  <div style="text-align:center"><h1>FLAT EARTH</h1></div>
 	<div class="clearfix">
   <div class="img-container">
@@ -96,23 +94,23 @@ JOIN THE MOVEMENT!!! <a href=“https://m.facebook.com/FlatSoc/”>Click Here</a
   <img src="images.jpg" alt="cartoon" style="width:100%">
   </div>
 </div>
-  <br />
-	  <div>  <p id="p2">
-	Flat earthers are a group of individuals who are 100% convinced taht the earth is indeed flat. 
+ 
+	  <div>  <br>
+	<p id="p2">Flat earthers are a group of individuals who are 100% convinced that the earth is indeed flat. 
 		They believe that Earth is a flat disk surrounded by a wall of ice which is Antarctica. 
-		They also believe that the images of the earth provided to us are simulated images created by the government to conceal the fact that Earth is flat.</p>
-	<p id="p2"> From Wikipedia:
+		They also believe that the images of the earth provided to us are simulated images created by the government to conceal the fact that Earth is flat.</br>
+	 <br>From Wikipedia:
 <blockquote cite="https://en.m.wikipedia.org/wiki/Modern_flat_Earth_societies">
 Modern flat-earthers generally embrace some form of conspiracy theory out of the necessity of explaining why major institutions such as governments, media outlets, schools, scientists, and airlines all assert that the world is a sphere. 
 They tend to not trust observations they have not made themselves, and often distrust or disagree with each other.
-</blockquote>
-	 <p id="p2"> Many people have dedicated their lives to proving this conspiracy theory. 
-		  The flat earth movement has been ataedily increasing over recent years. 
-		  Flat earthers share their theories and research through online discussion forums and also gather at conventions. </p>
-		  <br />
+</blockquote></br>
+	<br> <p id="p3">Many people have dedicated their lives to proving this conspiracy theory. 
+		  The flat earth movement has been steadily increasing over recent years. 
+		  Flat earthers share their theories and research through online discussion forums and also gather at conventions. </p></br>
+		  
 	  </div>
 	<div style="padding: 75px 50px 75px;"><a id="a1" href="https://www.cafepress.com/theflatearthsociety" target="_blank">SHOP</a> Shop for flat earth merchandise!</div>
-	<br />
+
 	<table> 
 		<tr> <th colspan=2> Learn more about flat earth </th> </tr>
 		<tr><td>The Flat Earth Society<td><a href="https://wiki.tfes.org/The_Flat_Earth_Wiki">FAQ</a> 
