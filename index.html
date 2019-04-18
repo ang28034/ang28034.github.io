@@ -13,7 +13,21 @@
 			p {font-family:courier}
 		table {background-color:}
 		td{background-color:}
-			 
+		* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} 	 
 		</style>
 
   </head>
@@ -26,7 +40,17 @@
 		</marquee>
     
 	  <div style="text-align:center"><h1>FLAT EARTH</h1></div>
-	
+	<div class="clearfix">
+  <div class="img-container">
+  <img src="img_5terre.jpg" alt="Italy" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
     <p>Gianni Versace was born in Italy on December 2, 1946. He began his career as a seamstress for his mother's dress-making business. 
 	At the age of 26, he moved to Milan to work as a fashion designer. </p>
 	<p>Modern flat-earthers generally embrace some form of conspiracy theory out of the necessity of explaining why major institutions such as governments, media outlets, schools, scientists, and airlines all assert that the world is a sphere. 
